@@ -18,7 +18,6 @@ class Database{
     
     
     public function open_db_connection(){
-        date_default_timezone_set('America/New_York');
         
         $this->connection = @new mysqli(self::DB_HOST, self::DB_USER, self::DB_PASS, self::DB_NAME);
         
