@@ -51,7 +51,7 @@ class Database{
     
     
    private function confirm($result) {
-    date_default_timezone_set('America/New_York');
+
 
 	if(!$result) {
 		die("QUERY FAILED" . $this->connection->error);
